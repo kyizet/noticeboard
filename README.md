@@ -1,6 +1,6 @@
 # A Simple Noticeboard
-    A simple noticeboard written in PHP.
-    
+A simple noticeboard written in PHP.
+
 # Developers
 * Kyi Zin
 
