@@ -19,10 +19,6 @@ $notice = new Notice($data['title'], $data['content']);
 if (!empty($_POST)) {
     $title = $_POST['title'];
     $content = $_POST['content'];
-    echo $title;
-    echo "<br>";
-    echo $content;
-    echo $id;
     $notice->update($id, $title, $content);
     $uid = $_SESSION['uid'];
 }
